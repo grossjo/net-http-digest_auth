@@ -96,6 +96,7 @@ class Net::HTTP::DigestAuth
                   when 'SHA1'   then Digest::SHA1
                   when 'SHA2'   then Digest::SHA2
                   when 'SHA256' then Digest::SHA256
+                  when 'SHA-256' then Digest::SHA256
                   when 'SHA384' then Digest::SHA384
                   when 'SHA512' then Digest::SHA512
                   when 'RMD160' then Digest::RMD160
